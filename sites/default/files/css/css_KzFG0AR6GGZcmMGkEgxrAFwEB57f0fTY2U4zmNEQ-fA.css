@@ -1,0 +1,383 @@
+#header,
+#appchoice,
+#header-menu,
+div.view-filters {
+    display: none;
+}
+
+body {
+    font: 0.8em/165%;
+    font-family: var(--fontFamilyLato);
+    margin: 0;
+    padding: 0;
+    outline: 0 none;
+    background: white !important;
+    background: white;
+}
+
+a {
+    color: black;
+    pointer-events: none;
+    cursor: default;
+}
+
+div.print-links {
+    display: none;
+}
+
+.printgrid,
+.printinfo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.3cm;
+    font-size: 6px;
+    text-align: center;
+}
+
+.printinfo {
+    width: 21cm;
+    color: grey;
+    font-size: 7px;
+}
+
+.pdf-disclaimer-logo {
+    width: 40px;
+    opacity: 0.5;
+}
+
+.pdf-disclaimer {
+    margin: 0.5em 1em;
+    color: silver;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 0.6em;
+}
+
+.pdf-header {
+    text-align: right;
+}
+
+.field-name-field-artwork-list .field-item {
+    width: 98%;
+    margin: 0 1%;
+    float: left;
+    height: 150px;
+}
+
+.field-name-field-artwork-list .node .field-item {
+    width: 100%;
+    height: auto;
+}
+
+.node-artset .field-name-body {
+    padding: 20px;
+}
+
+#print-wrapper-artset h1 {
+    display: none;
+    color: white;
+}
+
+#print-wrapper-artwork {
+    padding-top: 5em;
+}
+
+.node-artwork .art-info,
+.node-artwork .art-title,
+.node-artwork .field-name-field-artist-taxo {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.node-artwork .art-info,
+.node-artwork .art-image {
+    text-align: center;
+    width: 100%;
+}
+
+.node-artwork .art-image {}
+
+.node-artwork .art-info {
+    padding-top: 2em;
+}
+
+#node_artwork_full_group_additional_info {
+    margin-top: 1em;
+}
+
+.field-name-field-price,
+.field-name-field-currency {
+    font-weight: bold;
+}
+
+div.price-placeholder {
+    height: 1em;
+}
+
+.field-name-field-description .field-label,
+.art-info .collapsed,
+div.field-name-field-status {
+    display: none;
+}
+
+.node .node-artwork {
+    clear: left;
+}
+
+.node .node-artwork .art-image {
+    float: left;
+    width: 200px;
+    margin-bottom: 1cm;
+}
+
+.node .node-artwork .art-image img {}
+
+.node .node-artwork .art-info {
+    float: left;
+    width: 340px;
+    text-align: left;
+    margin-left: 40px;
+    height: 160px;
+}
+
+.print-wrapper .node-exhibition {
+    padding-top: 6em;
+    page-break-after: always;
+    width: 100%;
+    float: none;
+}
+
+.print-wrapper .visit-exhibition {
+    display: none;
+}
+
+.print-wrapper .exhib-image {
+    float: left;
+    width: 7cm;
+    padding-left: 10px;
+    margin-right: 40px;
+}
+
+.print-wrapper .exhib-duration {}
+
+.print-wrapper .exhib-info {
+    font-style: normal;
+    font-family: helvetica, arial, sans-serif;
+    padding-left: 40px;
+    float: right;
+    width: 9cm;
+    max-width: 480px;
+    text-align: left;
+    height: auto;
+    margin-bottom: 4em;
+}
+
+.print-wrapper .node-exhibition .exhib-description {
+    display: block;
+    margin-top: 1em;
+    float: none;
+}
+
+.print-wrapper .node-exhibition .exhib-title {
+    font-size: 2.4em;
+    font-style: normal;
+    line-height: 1em;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.print-wrapper .pdf-catalog .node-artwork,
+.print-wrapper .pdf-catalog .art-title,
+.print-wrapper .pdf-catalog .node-artwork h2 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+
+.print-wrapper .pdf-catalog .node-artwork {
+    clear: both;
+    float: none;
+    height: 8cm;
+    list-style: none;
+}
+
+.print-wrapper .pdf-catalog .node-artwork .art-info {
+    text-align: left;
+    height: 200px;
+    width: 9cm;
+    float: left;
+    font-size: 12px;
+}
+
+.print-wrapper .pdf-catalog .node-artwork .art-image {
+    float: right;
+    width: 7cm;
+    height: 200px;
+    padding-top: 2cm;
+}
+
+.artwork-pdf-img {
+    height: 5cm;
+}
+
+.print-wrapper .pdf-catalog .node-artwork .art-image .field {
+    width: 200px;
+}
+
+.print-wrapper .pdf-catalog .node-artwork .art-image img {
+    max-height: 200px;
+}
+
+.print-wrapper .pdf-catalog .field-name-field-artist-taxo {
+    padding-left: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.print-wrapper .art-title {
+    font-style: normal;
+    margin-bottom: 1.5em;
+}
+
+.print-wrapper .pdf-catalog .print-line-break {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin-bottom: 1.5em;
+    margin-top: 2cm;
+}
+
+.views-field-field-pdf-css {
+    display: none;
+}
+
+.view-pdf-infos .views-field-name {
+    display: none;
+}
+
+img.logo {
+    max-height: 70px;
+}
+
+.print-logo {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.print-contentÂ {
+    text-align: center;
+}
+
+.print-footer {
+    position: absolute;
+    bottom: 1.5cm;
+    text-align: center;
+    width: 18cm;
+}
+
+table th {
+    background: none !important;
+    color: black;
+    padding: 5px;
+}
+
+.node-invoice h2 {
+    display: none;
+}
+
+ul.blocklinks {
+    display: none;
+}
+
+.node .field-name-field-invoice-id,
+.node .field-name-field-invoice-date,
+.node .field-name-field-client-id {
+    float: none;
+    margin-left: 11cm;
+}
+
+.action-links-field-collection-add {
+    display: none;
+}
+
+.invoice-details {}
+
+.print-logo-invoice {
+    height: 3.5cm;
+}
+
+.invoice-headline {
+    padding-top: 10em;
+}
+
+.print-logo-contact_list,
+h2.contact_list {
+    display: none;
+}
+
+#print-wrapper-contact_list {
+    margin-left: -1.5cm;
+    margin-right: -1.5cm;
+    padding-left: 0.7cm;
+}
+
+#print-footer-contact_list {
+    display: none;
+}
+
+.field-name-field-contacts .field-item,
+.view-embed-contacts-by-group .views-row {
+    height: 3.81cm;
+    width: 6.6cm;
+    float: left;
+}
+
+.field-name-field-contacts .field-item .node-crm-entity,
+.view-embed-contacts-by-group .views-row .node-crm-entity {
+    margin: 0.5cm;
+}
+
+.page-accounting {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.page-accounting table {
+    width: 100%;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.page-accounting table td,
+.page-accounting table th {
+    padding: 1.2em 1em 0.6em 0.5em;
+    min-width: 70px;
+}
+
+.page-accounting table tr.odd,
+.page-accounting tr.even,
+.page-accounting tr.active {
+    background: none;
+}
+
+.page-accounting tr.even {
+    background: #f6f6f6;
+}
+
+.page-accounting td.active {
+    background: none;
+}
+
+.page-accounting table th a.active {
+    color: black;
+}
+
+.page-accounting table th {
+    border-bottom: 1px solid black;
+}
+
+.page-accounting img {
+    display: none;
+}

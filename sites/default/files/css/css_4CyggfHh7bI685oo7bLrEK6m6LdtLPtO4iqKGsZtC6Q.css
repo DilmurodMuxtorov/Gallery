@@ -1,0 +1,49 @@
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.alpha,
+.omega {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.align_center,
+.align_right {
+    text-align: left;
+}
+
+.view-products .views-row {
+    width: 100%
+}
+
+#page-wrapper {
+    min-width: 240px;
+}
+
+.responsive-menus-load-processed form.node-form label,
+.responsive-menus-load-processed .field .field-label {
+    display: block;
+    text-align: left;
+}
+
+.region-content h3,
+.region-content h2.block-title {
+    background: none !important;
+    font-size: 1.5em;
+    margin: 2em 0 1em 0;
+    border: none;
+}
